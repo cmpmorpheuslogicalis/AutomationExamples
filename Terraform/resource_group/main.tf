@@ -1,3 +1,8 @@
+variable "subscription_id" {}
+variable "client_id" {}
+variable "client_secret" {}
+variable "tenant_id" {}
+
 provider "azurerm" {
   features {}
   subscription_id = var.subscription_id
